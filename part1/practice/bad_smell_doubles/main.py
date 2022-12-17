@@ -12,10 +12,5 @@ class SomeClass:
 
     def sorted(self):
         self.lst.sort()
-        return self.lst
-
-    def sorting(self):
-        return sorted(self.lst)
-
-    def asc_sorting(self):
         return sorted(self.lst, reverse=False)
+
